@@ -41,7 +41,7 @@
 	<depend>std_srvs</depend>
 	<depend>stereo_msgs</depend>
 	<depend>tf</depend>
-	<depend>libopenface</depend>
+	<depend>cob_extern</depend>
 
 	<exec_depend>message_runtime</exec_depend>
 	<exec_depend>image_view</exec_depend>
