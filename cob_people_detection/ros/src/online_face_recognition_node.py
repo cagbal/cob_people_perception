@@ -21,12 +21,12 @@ from std_srvs.srv import Empty, SetBool, SetBoolRequest
 from cob_perception_msgs.msg import DetectionArray# Detection, Rect, Mask
 from cob_perception_msgs.msg import ColorDepthImageArray
 
-import util
-from util import Timer
+from online_people_recognition import util
+from online_people_recognition.util import Timer
 
-from OpenfaceWrapper import OpenFaceWrapper
-from PeopleRecognition import PeopleRecognition
-from PeopleRecognition import ModelSaver
+from online_people_recognition.OpenfaceWrapper import OpenFaceWrapper
+from online_people_recognition.PeopleRecognition import PeopleRecognition
+from online_people_recognition.PeopleRecognition import ModelSaver
 
 import actionlib
 

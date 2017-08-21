@@ -21,10 +21,10 @@ import numpy as np
 from cob_perception_msgs.msg import Detection, DetectionArray, Rect#, Mask
 from cob_perception_msgs.msg import ColorDepthImageArray
 
-import util
-from util import Timer
+from online_people_recognition import util
+from online_people_recognition.util import Timer
 
-from OpenfaceWrapper import OpenFaceWrapper
+from online_people_recognition.OpenfaceWrapper import OpenFaceWrapper
 
 class FaceDetectorNode(object):
     """Main class for FaceDetectorNode"""
