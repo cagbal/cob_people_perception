@@ -41,7 +41,7 @@
 	<depend>std_srvs</depend>
 	<depend>stereo_msgs</depend>
 	<depend>tf</depend>
-	<depend>cob_extern</depend>
+	<depend>libopenface</depend>
 	<depend>python-sklearn</depend>
 
 	<exec_depend>message_runtime</exec_depend>
